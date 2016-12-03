@@ -9,7 +9,7 @@ imgCell = read_images(config, net);
 [imdb, getBatch] = convert2imdb(imgcell2mat(imgCell));
 
 % change z_dim = 4;
-%config.z_dim = 7;
+% config.z_dim = 7;
 
 %train the model
 learningTime = tic;
